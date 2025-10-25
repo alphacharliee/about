@@ -12,7 +12,7 @@ AI made that possible. It helped me build with little knowledge, first out of cu
 A Discord bot that gathers financial news, gainers, losers, and helps users analyze chosen stocks to find which companies might move the market.  
 It includes a GPT-based sentiment analysis and entity recognition module to summarize real-time market signals.  
 - Stack: Python, spaCy, OpenAI API, Discord.py  
-- Goal: give traders inside Discord servers market context without digging too much — a kind of AI financial guide for decision making.
+- Goal: give traders inside Discord servers market context without digging too much, a kind of AI financial guide for decision making.
 
 Alongside TradeMesh, I created a Discord community for fellow Hondurans from scratch focused on finance, crypto, and AI 
 It started from a few investment and crypto posts I interacted on Reddit, and in less than a year it’s grown organically to almost 60 members, a small number maybe, but big for a country where these topics in 2025 are still just starting to gain traction. Inside the server, I built a custom GPT access bot connected directly to the OpenAI API. It lets certain trusted users run commands right from Discord and interact with ChatGpT... a free “insight” service I offer to the original members who helped the server grow.  
