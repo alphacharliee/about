@@ -18,7 +18,7 @@ Alongside TradeMesh, I created a Discord community for fellow Hondurans from scr
 It started from a few investment and crypto posts I interacted on Reddit, and in less than a year it’s grown organically to almost 60 members, a small number maybe, but big for a country where these topics in 2025 are still just starting to gain traction. Inside the server, I built a custom GPT access bot connected directly to the OpenAI API. It lets certain trusted users run commands right from Discord and interact with ChatGpT... a free “insight” service I offer to the original members who helped the server grow.  
 
 It’s become a small but active space where people share market ideas, tools, and experiments, and it’s been awesome to watch others in my country start to explore finance, crypto and AI.
-📂 [View Folder](./trademesh)
+📂 [View Folder](./Trademesh)
 
 
 
