@@ -1,64 +1,73 @@
 # Hey, I’m Albert Cárcamo
 
-I’m a self-taught builder and coder with the help of AI exploring how AI can make real things faster, smarter, and more human.  
+I’m a self-taught builder and coder with the help of AI. Exploring how a simple idea can turn into something real.  
+Born and raised in Honduras, Central America, where I'm currently based.
 
-I actually come from a legal background, but a couple of years ago I started coding, thing i had a hope to one day conquer it, AI helped me build with little knowledge, first out of curiosity, then because I realized how much AI could automate and simplify random things in my daily life. Since then, I’ve dedicated my free time to build systems that mix GPT models, APIs, and practical use cases in finance, automation, and daily workflows.
+I come from a legal background, but two years ago I started coding, something I always hoped I’d learn one day.  
+AI made that possible. It helped me build with little knowledge, first out of curiosity, then because I realized how much it could automate and simplify parts of my daily life. Since then, I’ve spent most of my free time building systems that mix LLMs, APIs, and practical use cases in finance, automation, and daily workflows.
 
----
+## What I’ve Built
 
-## What I’ve Built:
+### TradeMesh — 
+A Discord bot that gathers financial news, gainers, losers, and helps users analyze chosen stocks to find which companies might move the market.  
+It includes a GPT-based sentiment analysis and entity recognition module to summarize real-time market signals.  
+- Stack: Python, spaCy, OpenAI API, Discord.py  
+- Goal: give traders inside Discord servers market context without digging too much — a kind of AI financial guide for decision making.
 
-### TradeMesh — AI for Market Intelligence  
-A Discord bot that gathers financial news, gainers, loosers and helps users analyze chosen stocks to find which companies might move the market.  
-It has a module with GPT-based sentiment analysis and entity recognition to summarize real-time market signals.  
-- **Stack:** Python, spaCy, OpenAI API, Discord.py  
-- **Goal:** give traders insde discord servers context without digging to much and having a sort of financial data guide for decision making.  
+Alongside TradeMesh, I created a Discord community for fellow Hondurans from scratch focused on finance, crypto, and AI 
+It started from a few investment and crypto posts I interacted on Reddit, and in less than a year it’s grown organically to almost 60 members, a small number maybe, but big for a country where these topics in 2025 are still just starting to gain traction. Inside the server, I built a custom GPT access bot connected directly to the OpenAI API. It lets certain trusted users run commands right from Discord and interact with ChatGpT... a free “insight” service I offer to the original members who helped the server grow.  
 
+It’s become a small but active space where people share market ideas, tools, and experiments, and it’s been awesome to watch others in my country start to explore finance, crypto and AI.
 📂 [View Folder](./trademesh)
 
----
+
 
 ### Jeff — WhatsApp Personal Finance Assistant  
-A personal finance bot that helps keep your budget, expenses and income with a single whatapp message, privacy focused allowing users to own their personal financial data and ordering ti automatically in google sheets  
-Jeff connects WhatsApp → Google Sheets → User, so users can track expenses,and get daily or weekly summaries.  
-- Fully private — all data stays in your personal Google Sheet allowing to expand user data analysis and determine habits in a easy and privacy focused way.
+My crown jewel.
+A personal finance bot that helps track your budget, expenses, and income with a single WhatsApp message.
+Jeff connects WhatsApp → Google Sheets → User, keeping data fully private while automatically organizing it for analysis and habit tracking.  
+- Fully private — all data stays in each user’s personal Google Sheet  
+- Focused on simplicity, privacy, and financial awareness  
 
 📂 [View Folder](./jeffbot)
 
----
+### Aether Quant Toolkit  
+My first attempt at a quant playground. Aether is a Python toolkit that uses Monte Carlo simulations to estimate price probabilities for crypto assets. It fetches data, runs technical indicators, and produces probability-based forecasts.  
+- Stack: Python, yfinance, pandas, matplotlib  
+- GPT helps summarize outcomes and interpret risk  
 
-###  Aether Quant Toolkit  
-First try on the quant playground. Aether is a Python toolkit that uses Monte Carlo simulations to estimate price probabilities for crypto assets.It fetches data, runs technical indicators, and gives probability-based forecasts.  
-- **Stack:** Python, yfinance, pandas, matplotlib  
-- Uses GPT to summarize outcomes and interpret risk  
 📂 [View Folder](./aether-quant)
 
----
-
 ### CalendarBot (Luna)  
-An AI scheduling assistant I built for a real Pilates studio.  
-Luna is a whatsapp based bot for a pilates studio using a LLM like Chatgpt to automate bookings and appointment confirmatio to users.  WhatsApp messages like “I want to book a session for tomorrow at 10,” checks Google Calendar, and replies with confirmations or alternate slots and send emails confirming appointment. As well a mode to answer based on query or order like sequence and multiple texts..
-- Built with Twilio + GPT + Google Calendar API + Google Mail 
-- Handles bookings, reschedules, and confirmations  
+An AI scheduling assistant built for a real Pilates studio.  
+Luna is a WhatsApp-based bot that uses an LLM to automate bookings and confirmations. It reads messages like “book me tomorrow at 10,” checks Google Calendar, and replies with confirmations or alternatives — even sending follow-up emails.  
+- Built with Twilio + GPT + Google Calendar API + Google Mail  
+- Handles bookings, reschedules, confirmations, and FAQs  
+
 📂 [View Folder](./calendarbot)
 
----
+## Why I Build
 
-## Why I Build  
-Since early on in my life ive had a close contact to technology after several motherboard ruined by connecting cables where they didnt belong, managed to find a passion for software and trying it early on and try to squeeze the best out of it while making my life easier, received at 15 years old a check from revenue from google ads program for running a tech blog and running ads on it chanelling traffic from youtube videos (2007), fast forward that kid after life decisions that kid ended up in law school and have been working within the aviation law sector for the past 10 years, since coding agents and LLMs became publicly avaible decided to reignite my passion for technology, software and else and started to code with AI help, taking me to this application, today its hard to say whats not possible to do with the help of AI, would love to join a team of like minded individuals and explore and bring new ideas to life, right now My focus is a mix of **codigng with AI help, automation, and finance** making tools that feel natural to use — not over-engineered, just useful,smart and making your life easier.
+Since early on, I’ve had a close connection to technology, mostly by breaking things first. After a few ruined motherboards from plugging cables where they didn’t belong, I found a real passion for software and how it could make life easier. At 15, I got my first Google AdSense check for running a small tech blog and channeling traffic from YouTube videos back in 2007-2008. Fast forward a bit and life took me through law school and into aviation law, where I’ve worked for the past decade.  
 
-## Why I’m applying
-
-This fellowship feels like exactly the kind of thing I’ve been doing on my own for the past two years. I started building with AI out of curiosity, trying to see what I could make with the help of GPT and some APIs. I don't have a computer science background, just the drive to try, fail, and keep learning. Most of what I’ve built came from that. A few Discord bots, a WhatsApp finance assistant, some automation tools, and a small Discord finance, crypto and AI community that’s grown to almost 60 people here in Honduras all organic from Reddit posts. Inside that server, I even made a bot that lets certain users run GPT commands straight from Discord. It’s kind of a free service I give to the older members who helped me grow it.
-
-What I like about this fellowship is that it’s not about degrees or titles, it’s about actually building stuff. That’s what I like doing. I like to take ideas and make them real, It's crazy that AI tools changed how I think and how I work, and being honest it made coding feel possible for me, something that seemed distant. I’d love to be part of a team that’s exploring that drive in people and pushing it further.
+When coding assistants and LLMs became public, that spark just reignited...hard. I started experimenting again this time using AI as my coding partner and ended up building projects that mix automation, finance, and everyday use cases.  That path led me here. It’s hard to say what’s not possible anymore with AI, and I’d love to join a team of like-minded builders to explore that further. I've had a focus on **coding with AI, automation, and finance** but open to explore other areas making tools that feel natural to use, not over-engineered, just useful and smart
 
 ---
 
-## Let's Connect  
-**X (Twitter):** (https://x.com/carcamo_albert)  
-**Email:** fates42.tank@icloud.com 
+## Why I’m Applying
+
+This fellowship feels like the kind of thing I’ve already been doing on my own for the past two years. I started building with AI out of curiosity, trying to see what I could make with GPT and some APIs. I don’t have a computer science backgroundm just the drive to try, fail, and keep learning.
+
+Most of what I’ve built came from that. A few Discord bots, a WhatsApp finance assistant, some automation tools, and a small Discord community focused on finance, crypto, and AI.
+
+What I like about this fellowship is that it’s not about degrees or titles, it’s about actually building things. That’s what I love doing: taking ideas and turning them into something real.  
+AI tools changed how I think and how I work, they made coding possible for me, something that used to feel far away. Honestly, I’d love to join a team that shares that same drive and curiosity to keep pushing and making ideas a reality.
 
 
-# about
-Builder Fellow, Engineer application
+## How to Connect with me?  
+Twitter: [@carcamo_albert](https://x.com/carcamo_albert)  
+Email: fates42.tank@icloud.com  
+
+
+# About  
+Block Builder Fellow, Engineer Application
