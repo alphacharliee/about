@@ -1,6 +1,6 @@
 # Hey, I’m Albert Cárcamo
 
-I’m a self-taught builder and coder with the help of AI. Exploring how a simple idea can turn into something real.  
+I’m a self-taught builder and coder with the help of AI who is in constant learning. Exploring how a simple idea can turn into something real.  
 Born and raised in Honduras, Central America, where I'm currently based.
 
 I come from a legal background, but two years ago I started coding, something I always hoped I’d learn one day.  
