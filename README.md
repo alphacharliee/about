@@ -1,73 +1,91 @@
-# Hey, I’m Albert Cárcamo
+# Hey, I'm Albert Cárcamo 👋
 
-I’m a self-taught builder and coder with the help of AI who is in constant learning. Exploring how a simple idea can turn into something real.  
-Born and raised in Honduras, Central America, where I'm currently based.
+**Independent AI Builder | Python, LLM Applications & Automation**  
+Based in Honduras, Central America.
 
-I come from a legal background, but two years ago I started coding, something I always hoped I’d learn one day.  
-AI made that possible. It helped me build with little knowledge, first out of curiosity, then because I realized how much it could automate and simplify parts of my daily life. Since then, I’ve spent most of my free time building systems that mix LLMs, APIs, and practical use cases in finance, automation, and daily workflows.
+I'm a self-taught builder with a background in international law and aviation governance. About two years ago, I started learning to code with the help of AI. What began as curiosity turned into a habit: taking an idea, building a working prototype, breaking it, and figuring out how to make it better.
 
-## What I’ve Built
+Outside my legal career, I've been experimenting with Python, language models, APIs, and practical tools for finance and everyday workflows. AI coding assistants are part of how I learn and build; I'm interested in understanding the systems I create, not just getting them to run.
 
-### TradeMesh — 
-A Discord bot that gathers financial news, gainers, losers, and helps users analyze chosen stocks to find which companies might move the market.  
-It includes a GPT-based sentiment analysis and entity recognition module to summarize real-time market signals.  
-- Stack: Python, spaCy, OpenAI API, Discord.py  
-- Goal: give traders inside Discord servers market context without digging too much, a kind of AI financial guide for decision making.
+Lately I've become especially curious about **LLM reliability, evaluation, tool use, and the boundaries of autonomous agents**—what happens when instructions are ambiguous, data is messy, or a model makes the wrong call.
 
-Alongside TradeMesh, I created a Discord community for fellow Hondurans from scratch focused on finance, crypto, and AI 
-It started from a few investment and crypto posts I interacted on Reddit, and in less than a year it’s grown organically to almost 60 members, a small number maybe, but big for a country where these topics in 2025 are still just starting to gain traction. Inside the server, I built a custom GPT access bot connected directly to the OpenAI API. It lets certain trusted users run commands right from Discord and interact with ChatGpT... a free “insight” service I offer to the original members who helped the server grow.  
+## What I've Built
 
-It’s become a small but active space where people share market ideas, tools, and experiments, and it’s been awesome to watch others in my country start to explore finance, crypto and AI.
-📂 [View Folder](./Trademesh)
+### TradeMesh — Financial Intelligence on Discord
 
+A Discord bot that brings market news and context into a trading community. It retrieves financial information, detects company names and tickers, classifies events, and summarizes developments.
 
+- **Stack:** Python, Discord.py, spaCy, TextBlob, OpenAI API
+- **What's under the hood:** Rule-based event categories, named-entity recognition, sentiment scoring, and LLM-assisted summaries
+- **What I'm interested in improving:** Classification accuracy, evaluation on real headlines, and reliability when financial news is ambiguous
 
-### Jeff — WhatsApp Personal Finance Assistant  
-My crown jewel.
-A personal finance bot that helps track your budget, expenses, and income with a single WhatsApp message.
-Jeff connects WhatsApp → Google Sheets → User, keeping data fully private while automatically organizing it for analysis and habit tracking.  
-- Fully private — all data stays in each user’s personal Google Sheet  
-- Focused on simplicity, privacy, and financial awareness  
+I also started a Honduras-based Discord community around finance, crypto, and AI. It grew organically to nearly 60 members. I built a separate OpenAI API-powered bot so trusted community members could experiment with GPT directly in Discord.
 
-📂 [View Folder](./jeffbot)
+📂 [Explore TradeMesh and source code](./Trademesh)
 
-### Aether Quant Toolkit  
-My first attempt at a quant playground. Aether is a Python toolkit that uses Monte Carlo simulations to estimate price probabilities for crypto assets. It fetches data, runs technical indicators, and produces probability-based forecasts.  
-- Stack: Python, yfinance, pandas, matplotlib  
-- GPT helps summarize outcomes and interpret risk  
+### Jeff — WhatsApp Personal Finance Assistant
 
-📂 [View Folder](./aether-quant)
+My most personally rewarding project: a conversational assistant for recording expenses, income, and budgets through WhatsApp, without asking users to learn spreadsheet commands.
 
-### CalendarBot (Luna)  
-An AI scheduling assistant built for a real Pilates studio.  
-Luna is a WhatsApp-based bot that uses an LLM to automate bookings and confirmations. It reads messages like “book me tomorrow at 10,” checks Google Calendar, and replies with confirmations or alternatives — even sending follow-up emails.  
-- Built with Twilio + GPT + Google Calendar API + Google Mail  
-- Handles bookings, reschedules, confirmations, and FAQs  
+- **Stack:** Python, Twilio WhatsApp API, OpenAI API, Google Sheets API, Railway
+- **Approach:** Natural-language input, transaction organization, and Google Sheets-based personal records
+- **Stage:** Early closed-alpha testing with five users; further development and deployment improvements in progress
+- **Questions I'm exploring:** Accurate transaction extraction, ambiguous messages, reliable tool calls, and protecting user data across integrations
 
-📂 [View Folder](./calendarbot)
+Jeff is designed around user-controlled financial records in Google Sheets. As with any messaging and AI application, external services may process information in transit.
+
+📂 [Explore Jeff](./jeffbot)
+
+### Aether Quant Toolkit — Probabilistic Market Experiments
+
+A Python project I built to explore crypto price data, indicators, volatility, and Monte Carlo simulations. It's a learning experiment in modeling uncertainty, not a claim that market outcomes can be predicted reliably.
+
+- **Stack:** Python, pandas, yfinance, matplotlib
+- **Focus:** Data retrieval, technical indicators, simulation, probability-based scenarios, and risk interpretation
+- **What I've learned to ask:** How sensitive are outcomes to assumptions, and how should uncertainty be communicated?
+
+📂 [Explore Aether](./aether-quant)
+
+### Luna (CalendarBot) — Conversational Scheduling
+
+A WhatsApp scheduling assistant developed for a Pilates studio. It interprets booking requests, checks calendar availability, and supports confirmations, rescheduling, and cancellations.
+
+- **Stack:** Python, Twilio, OpenAI API, Google Calendar API, Google Sheets
+- **Workflow:** Natural-language requests connected to scheduling rules and external tools
+- **Stage:** Studio trial
+- **Questions I'm exploring:** How to keep conversational automation reliable when instructions are incomplete or conflict with business rules
+
+📂 [Explore Luna](./calendarbot)
+
+## What I'm Exploring Next
+
+Building LLM applications has made me more interested in **how to evaluate them rigorously**, beyond whether a demo appears to work.
+
+I'm particularly interested in:
+
+- **Model and agent evaluation:** Testing behavior against clear expectations and documenting failure cases
+- **Reliable tool use:** Checking how assistants handle permissions, external APIs, and ambiguous instructions
+- **AI control and oversight:** Exploring how automated systems can remain within intended operational boundaries
+- **Practical experimentation:** Building small, reproducible tests, measuring outcomes, and learning from unexpected results
+
+These are directions I'm learning about and hope to investigate more deeply—not areas where I claim established research expertise.
+
+## Background Beyond Code
+
+For the past decade, I've worked in international aviation law and institutional governance, supporting decision-making, regulatory work, and oversight processes at COCESNA. I hold a master's degree in International, Diplomatic & Consular Law and am currently pursuing a **Master's in Air Navigation Services Management at Universidad Complutense de Madrid (expected 2027)**.
+
+Working around safety-critical aviation systems has shaped the way I think about accountability, reliability, and what happens when procedures don't work as intended.
 
 ## Why I Build
 
-Since early on, I’ve had a close connection to technology, mostly by breaking things first. After a few ruined motherboards from plugging cables where they didn’t belong, I found a real passion for software and how it could make life easier. At 15, I got my first Google AdSense check for running a small tech blog and channeling traffic from YouTube videos back in 2007-2008. Fast forward a bit and life took me through law school and into aviation law, where I’ve worked for the past decade.  
+I've been fascinated by technology since I was a teenager—occasionally learning the hard way by plugging things into the wrong places and ruining a motherboard or two. Around 2007–2008, I ran a small tech blog and received my first Google AdSense check from traffic driven by YouTube.
 
-When coding assistants and LLMs became public, that spark just reignited...hard. I started experimenting again this time using AI as my coding partner and ended up building projects that mix automation, finance, and everyday use cases.  That path led me here. It’s hard to say what’s not possible anymore with AI, and I’d love to join a team of like-minded builders to explore that further. I've had a focus on **coding with AI, automation, and finance** but open to explore other areas making tools that feel natural to use, not over-engineered, just useful and smart
+Life took me into law, but the curiosity stayed. When AI coding assistants became available, I finally had a way to turn some of those long-held ideas into software.
 
----
+I'm still learning, and I don't pretend otherwise. What keeps me going is the process: finding a real problem, trying something, understanding why it works (or doesn't), and making it more useful.
 
-## Why I’m Applying
+## Connect
 
-This fellowship feels like the kind of thing I’ve already been doing on my own for the past two years. I started building with AI out of curiosity, trying to see what I could make with GPT and some APIs. I don’t have a computer science backgroundm just the drive to try, fail, and keep learning.
-
-Most of what I’ve built came from that. A few Discord bots, a WhatsApp finance assistant, some automation tools, and a small Discord community focused on finance, crypto, and AI.
-
-What I like about this fellowship is that it’s not about degrees or titles, it’s about actually building things. That’s what I love doing: taking ideas and turning them into something real.  
-AI tools changed how I think and how I work, they made coding possible for me, something that used to feel far away. Honestly, I’d love to join a team that shares that same drive and curiosity to keep pushing and making ideas a reality.
-
-
-## How to Connect with me?  
-Twitter: [@carcamo_albert](https://x.com/carcamo_albert)  
-Email: fates42.tank@icloud.com  
-
-
-# About  
-Block Builder Fellow, Engineer Application
+- **GitHub:** [alphacharliee](https://github.com/alphacharliee)
+- **X / Twitter:** [@carcamo_albert](https://x.com/carcamo_albert)
+- **Email:** [fates42.tank@icloud.com](mailto:fates42.tank@icloud.com)
