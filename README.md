@@ -1,4 +1,4 @@
-# Hey, I'm Albert Cárcamo 👋
+# Hey, I'm Albert Cárcamo
 
 **Independent AI Builder | Python, LLM Applications & Automation**  
 Based in Honduras, Central America.
